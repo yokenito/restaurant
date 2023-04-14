@@ -1,0 +1,156 @@
+body{
+    margin: 20px;
+    padding: 0;
+}
+main{
+    margin: 0 20px;
+    padding: 0;
+}
+.section-ttl{
+    width: 300px;
+    border-bottom: 3px solid #311ff7;
+    padding: 5px 0;
+}
+
+/* storeカード */
+.store-card{
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #f6f6f9;
+    border-color: #AAAAFF #6666FF #4444FF #CCCCFF;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.store-card:nth-child(n+1){
+    margin-top: 20px;
+}
+.genre-name{
+    color: #949497;
+    font-size: 16px;
+}
+.store-ttl{
+    font-size: 24px;
+    font-weight: bold;
+}
+.store-inf{
+    margin-top: 20px;
+}
+
+
+/* store/index */
+.search-form{
+    margin-bottom: 30px;
+}
+.search-btn-box{
+    margin-top: 20px;
+}
+.search-btn{
+    padding: 0 20px;
+}
+
+/* store/searchindex */
+.y-fz-searchresult{
+    font-size: 16px;
+}
+.create-newstore{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* フォーム */
+.form-note{
+    font-size: 12px;
+    margin-left: 5px;
+    color: red;
+}
+
+/* いいねボタン */
+.nicebtn-button{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+}
+.nicebtn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 1px solid #5d5b5b;
+    color: #5d5b5b;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f6f6f9;
+    font-size: 15px;
+}
+.unnicebtn-unlogin{
+    text-decoration: none;
+    color: #000;
+}
+.nice{
+    border: none;
+    background-color: #f6f6f9;
+    font-size: 15px;
+    color: #5d5b5b;
+}
+.nicebtn.active{
+    border: 1px solid #000;
+    color: #000;
+}
+.nicebtn.active span{
+    color: yellow;
+}
+
+
+/* mypage */
+.mypage-list{
+    margin-top: 20px;
+}
+.mypage-list-item{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.mypage-card{
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #f6f6f9;
+    border-color: #AAAAFF #6666FF #4444FF #CCCCFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+.logoutbtn-button{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+}
+.logoutbtn{
+    border: none;
+    background-color: none;
+    color: blue;
+}
+
+/* 写真 */
+.allphotobox{
+    margin: 20px 10px;
+}
+.photobox img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+}
+
+/* コメントボックス */
+.comment-box{
+    border-top: 1px solid #7a7878;
+    padding-top: 20px;
+    padding-left: 20px;
+}
