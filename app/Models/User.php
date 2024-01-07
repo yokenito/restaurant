@@ -63,17 +63,11 @@ class User extends Authenticatable
     }
     public function nice($store_id){
         if($this->isNice($store_id)){
-
+            
         } else {
             $this->nices()->attach($store_id);
         }
     }
-    public function deletenice($store_id){
-        if($this->isNice($store_id)){
-            $this->nices()->detach($store_id);
-        }else{
-            
-        }
-    }
+   
 
 }
